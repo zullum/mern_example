@@ -1,0 +1,23 @@
+{
+  "name": "mern_tutorial",
+  "version": "1.0.0",
+  "description": "\"# mern_example\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zullum/mern_example.git"
+  },
+  "author": "zullum",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zullum/mern_example/issues"
+  },
+  "homepage": "https://github.com/zullum/mern_example#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.2",
+    "react-router-dom": "^5.2.0"
+  }
+}
