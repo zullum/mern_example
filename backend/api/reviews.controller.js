@@ -49,6 +49,8 @@ export default class ReviewsController {
                     'unable to update review - user mey not be original poster'
                 )
             }
+
+            res.json({ status: "success" })
         } catch (err) {
             res.status(500).json({ error: err.message })
         }
